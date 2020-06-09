@@ -14,6 +14,6 @@
 # Training
 ## Đưa tập train vào training ra model . Hàm loss là hàm MSE , Thuật toán tối ưu ADAM .Thuật toán này cho các weight ban đầu random nên sẽ cho ra các dự đoán các kết quả hàm loss khác nhau .Các kết quả này gọi là các cực tiểu địa phương .
 
-## Lấy model đó dự đoán cho tập test .Dự đoán xong ta sẽ có các hàm để đưa các giá trị dự đoán về dạng chuỗi thời gian ban đầu 
+## Lấy model đó dự đoán cho tập test .Dự đoán xong ta sẽ có các hàm inverse để đưa các giá trị dự đoán về dạng chuỗi thời gian ban đầu 
 
 ## Giá trị là RMSE là giá trị độ lệch giữa predict và giá trị mong đợi 
