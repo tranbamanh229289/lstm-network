@@ -7,7 +7,7 @@
 
 ## Theo mô hình LSTM .Đầu vào mô hình là điểm dữ liệu x(i) sẽ dự đoán đầu ra là điểm dữ liệu x(i+1) .Tức là nhãn của điểm dữ liệu x(i) sẽ là điểm dữ liệu x(i+1).Ta chuyển dữ liệu của chuỗi dừng về dữ liệu của bài toán học tập có giám sát 
 
-## Khi một vector đi qua mạng neuron, chúng trải qua rất nhiều phép tính và trong quá trình đó sẽ có thành phần nào đó trở nên quá to và khiến các thành phần khác trở nên không đáng kể. Hàm tanh lúc này. sẽ giúp tinh chỉnh sự chênh lệch này để giúp "các thành phần yếu thế vẫn có tiếng nói trong xã hội".Vậy chúng ta sẽ chuyển các giá trị của bài toán học có giám sát trong khoảng (-1,1) bằng hàm tanh .Nhưng ở đây tôi sẽ dùng lớp Minmaxscaler trong thư viện sklearn để chuyển dữ liệu trong khoảng (-1,1)
+##
 
 ## Sau khi chuẩn bị dữ liệu xong ta sẽ chia dữ liệu thành tập test và train , tổng cộng dataset có 36 điểm dữ liệu liên tiếp , ta sẽ chia tập train có 24 điểm dữ liệu liên tiếp (chuỗi thời gian ) và tập test có 12 điểm dữ liệu liên tiếp (chuỗi thời gian )
 
